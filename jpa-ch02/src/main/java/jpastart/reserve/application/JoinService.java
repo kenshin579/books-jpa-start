@@ -1,9 +1,9 @@
 package jpastart.reserve.application;
 
-import javax.persistence.EntityManager;
-
 import jpastart.jpa.EMF;
 import jpastart.reserve.model.User;
+
+import javax.persistence.EntityManager;
 
 public class JoinService {
     public void join(User user) {
