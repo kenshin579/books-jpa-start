@@ -8,5 +8,6 @@
     <name>books-jpa-start</name>
 
     <modules>
+        <module>jpa-ch02</module>
     </modules>
 </project>
