@@ -36,7 +36,7 @@ public class WithdrawService {
             } finally {
                 EMF.closeCurrentEntityManager();
             }
-        } catch(SystemException | NotSupportedException | NamingException ex) {
+        } catch (SystemException | NotSupportedException | NamingException ex) {
             throw new RuntimeException(ex);
         }
     }

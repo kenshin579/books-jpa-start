@@ -4,7 +4,6 @@ import jpastart.jpa.EMF;
 import jpastart.reserve.model.User;
 import jpastart.reserve.repository.UserRepository;
 
-import javax.persistence.EntityManager;
 import java.util.Optional;
 
 public class GetUserService {

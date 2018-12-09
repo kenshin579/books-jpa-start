@@ -1,9 +1,9 @@
 package org.arquillian.example;
 
+import javax.annotation.PostConstruct;
 import java.text.MessageFormat;
 import java.util.HashMap;
 import java.util.Map;
-import javax.annotation.PostConstruct;
 
 public class PhraseBuilder {
     private Map<String, String> templates;

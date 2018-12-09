@@ -17,7 +17,7 @@ public class ChangeNameService {
             if (user == null) throw new UserNotFoundException();
             user.changeName(newName);
             em.getTransaction().commit();
-        } catch(Exception ex) {
+        } catch (Exception ex) {
             em.getTransaction().rollback();
             throw ex;
         } finally {

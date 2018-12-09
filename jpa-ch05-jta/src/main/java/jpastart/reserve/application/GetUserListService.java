@@ -19,7 +19,7 @@ public class GetUserListService {
             List<User> result = query.getResultList();
             em.getTransaction().commit();
             return result;
-        } catch(Exception ex) {
+        } catch (Exception ex) {
             em.getTransaction().rollback();
             throw ex;
         } finally {

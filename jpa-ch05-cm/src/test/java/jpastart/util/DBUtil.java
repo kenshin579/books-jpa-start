@@ -10,7 +10,11 @@ import org.dbunit.operation.DatabaseOperation;
 
 import java.io.FileNotFoundException;
 import java.io.InputStreamReader;
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 public class DBUtil {
     static {
@@ -72,6 +76,7 @@ public class DBUtil {
             } catch (SQLException e) {
             }
     }
+
     public static void close(Statement stmt) {
         if (stmt != null)
             try {
@@ -79,6 +84,7 @@ public class DBUtil {
             } catch (SQLException e) {
             }
     }
+
     public static void close(ResultSet rs) {
         if (rs != null)
             try {

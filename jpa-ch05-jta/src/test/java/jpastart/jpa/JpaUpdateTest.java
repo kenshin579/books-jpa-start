@@ -6,7 +6,6 @@ import jpastart.reserve.model.Hotel;
 import org.junit.Test;
 
 import javax.persistence.EntityManager;
-import javax.persistence.EntityTransaction;
 import javax.transaction.UserTransaction;
 
 import static org.hamcrest.CoreMatchers.equalTo;

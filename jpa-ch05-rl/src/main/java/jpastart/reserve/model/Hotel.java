@@ -2,7 +2,11 @@ package jpastart.reserve.model;
 
 import jpastart.common.model.Address;
 
-import javax.persistence.*;
+import javax.persistence.Embedded;
+import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.persistence.Id;
 
 @Entity
 public class Hotel {

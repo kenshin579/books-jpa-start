@@ -1,7 +1,7 @@
 package org.arquillian.example;
 
-import java.io.PrintStream;
 import javax.inject.Inject;
+import java.io.PrintStream;
 
 public class Greeter {
 

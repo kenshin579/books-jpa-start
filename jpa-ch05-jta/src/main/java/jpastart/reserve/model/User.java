@@ -1,17 +1,26 @@
 package jpastart.reserve.model;
 
-import javax.persistence.*;
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import java.util.Date;
 
 @Entity
 @Table(name = "user")
 public class User {
 
-    @Id @Basic
+    @Id
+    @Basic
     private String email;
-    @Basic private String name;
+    @Basic
+    private String name;
 
-    @Basic @Temporal(TemporalType.TIMESTAMP)
+    @Basic
+    @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "create_date")
     private Date createDate;
 
