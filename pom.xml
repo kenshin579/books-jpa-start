@@ -14,5 +14,6 @@
         <module>jpa-ch05-cm</module>
         <module>jpa-ch05-jta</module>
         <module>jpa-ch05-rl</module>
+        <module>jpa-ch06</module>
     </modules>
 </project>
