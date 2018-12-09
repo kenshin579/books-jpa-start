@@ -2,7 +2,9 @@ package jpastart.guide.model;
 
 import jpastart.common.model.Address;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Embeddable;
+import javax.persistence.Embedded;
 
 @Embeddable
 public class ContactInfo {

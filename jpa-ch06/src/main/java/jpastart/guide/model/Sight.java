@@ -31,10 +31,10 @@ public class Sight {
     @Embedded
     @AttributeOverrides({
             @AttributeOverride(
-                    name="hoursOfOperation",
-                    column = @Column(name = "hours_op", table="sight_detail")),
-            @AttributeOverride(name="holidays", column = @Column(table="sight_detail")),
-            @AttributeOverride(name="facilities", column = @Column(table="sight_detail"))
+                    name = "hoursOfOperation",
+                    column = @Column(name = "hours_op", table = "sight_detail")),
+            @AttributeOverride(name = "holidays", column = @Column(table = "sight_detail")),
+            @AttributeOverride(name = "facilities", column = @Column(table = "sight_detail"))
     })
     private SightDetail detail;
 
