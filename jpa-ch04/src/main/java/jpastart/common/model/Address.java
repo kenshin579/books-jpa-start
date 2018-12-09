@@ -1,6 +1,6 @@
 package jpastart.common.model;
 
-import javax.persistence.*;
+import javax.persistence.Embeddable;
 import java.util.Objects;
 
 @Embeddable

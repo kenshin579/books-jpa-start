@@ -11,7 +11,8 @@ public class MonChargeId implements Serializable {
     @Column(name = "year_mon")
     private String yearMon;
 
-    public MonChargeId() {}
+    public MonChargeId() {
+    }
 
     public MonChargeId(String hotelId, String yearMon) {
         if (hotelId == null)
