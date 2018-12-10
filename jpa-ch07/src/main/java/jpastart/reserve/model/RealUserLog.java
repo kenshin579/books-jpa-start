@@ -23,7 +23,8 @@ public class RealUserLog {
         this.usedDate = realUsingDate;
     }
 
-    public RealUserLog() {}
+    public RealUserLog() {
+    }
 
     public Long getId() {
         return id;

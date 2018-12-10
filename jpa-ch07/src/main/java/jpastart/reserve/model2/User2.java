@@ -9,11 +9,14 @@ import java.util.Date;
 @Table(name = "user")
 public class User2 {
 
-    @Id @Basic
+    @Id
+    @Basic
     private String email;
-    @Basic private String name;
+    @Basic
+    private String name;
 
-    @Basic @Temporal(TemporalType.TIMESTAMP)
+    @Basic
+    @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "create_date")
     private Date createDate;
 

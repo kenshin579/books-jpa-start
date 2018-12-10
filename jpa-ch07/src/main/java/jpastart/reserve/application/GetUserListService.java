@@ -17,7 +17,7 @@ public class GetUserListService {
             List<User> result = userRepository.findAll();
             em.getTransaction().commit();
             return result;
-        } catch(Exception ex) {
+        } catch (Exception ex) {
             em.getTransaction().rollback();
             throw ex;
         } finally {
