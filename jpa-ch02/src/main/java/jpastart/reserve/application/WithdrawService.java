@@ -1,6 +1,7 @@
 package jpastart.reserve.application;
 
 import jpastart.jpa.EMF;
+import jpastart.reserve.application.exception.UserNotFoundException;
 import jpastart.reserve.model.User;
 
 import javax.persistence.EntityManager;

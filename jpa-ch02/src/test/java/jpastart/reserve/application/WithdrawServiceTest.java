@@ -1,5 +1,6 @@
 package jpastart.reserve.application;
 
+import jpastart.reserve.application.exception.UserNotFoundException;
 import jpastart.reserve.model.UserDomain;
 import jpastart.util.DBTestResource;
 import org.junit.Rule;

@@ -1,5 +1,6 @@
 package jpastart.reserve.application;
 
+import jpastart.reserve.application.exception.DuplicateEmailException;
 import jpastart.reserve.model.User;
 import jpastart.reserve.model.UserDomain;
 import jpastart.util.DBTestResource;

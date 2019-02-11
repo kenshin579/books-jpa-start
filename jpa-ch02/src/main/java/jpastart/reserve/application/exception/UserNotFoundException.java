@@ -1,4 +1,4 @@
-package jpastart.reserve.application;
+package jpastart.reserve.application.exception;
 
 public class UserNotFoundException extends RuntimeException {
 }

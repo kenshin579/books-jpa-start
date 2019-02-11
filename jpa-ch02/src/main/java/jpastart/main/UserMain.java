@@ -2,11 +2,11 @@ package jpastart.main;
 
 import jpastart.jpa.EMF;
 import jpastart.reserve.application.ChangeNameService;
-import jpastart.reserve.application.DuplicateEmailException;
+import jpastart.reserve.application.exception.DuplicateEmailException;
 import jpastart.reserve.application.GetUserListService;
 import jpastart.reserve.application.GetUserService;
 import jpastart.reserve.application.JoinService;
-import jpastart.reserve.application.UserNotFoundException;
+import jpastart.reserve.application.exception.UserNotFoundException;
 import jpastart.reserve.application.WithdrawService;
 import jpastart.reserve.model.User;
 
